@@ -1,15 +1,29 @@
 <section class="comments">
   <div class="container">
-    <img
-      src="./images/testimonials1.webp"
-      alt="Customer testimonial"
-      class="comments__image"
-    />
-    <span class="comments__text">
-      Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam
-      sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in
-      nibh vel risus.
-    </span>
+    <picture>
+      <source
+        srcset="
+          ./images/testimonials1.webp  1x,
+          ./images/testimonials2x.webp 2x,
+          ./images/testimonials3x.webp 3x
+        "
+        media="(min-width: 0px)"
+      />
+      <img
+        src="./images/testimonials1.webp"
+        alt="Customer testimonial"
+        class="comments__image"
+      />
+    </picture>
+
+    <div class="comments__div">
+      <p class="comments__text">
+        Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam
+        sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis
+        in nibh vel risus.
+      </p>
+    </div>
+
     <div class="comments__author">
       <img
         src="./images/Group8.webp"

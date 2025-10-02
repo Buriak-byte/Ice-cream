@@ -1,0 +1,64 @@
+@charset "UTF-8";
+.comments {
+  padding-top: 80px;
+  padding-bottom: 86px;
+}
+
+.comments__image {
+  width: 85px;
+  height: 85px;
+  width: 85px;
+  height: 85px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 29px;
+}
+
+.comments__div {
+  position: relative;
+  padding-top: 43px;
+  padding-bottom: 26px;
+  padding-left: 56px;
+  padding-right: 57px;
+  background: rgb(250, 250, 250);
+  background-size: 280px 308px;
+  z-index: -1;
+  margin-bottom: 30px;
+}
+
+.comments__text {
+  color: rgb(0, 0, 0);
+  font-family: DM Sans;
+  font-size: 16px;
+  width: 157px;
+  height: 239px;
+  font-weight: 500;
+  line-height: 30px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  background-image: repeating-linear-gradient(to top, #e1e1e1 0px 1px, transparent 1px 31px);
+}
+
+.comments__text::before {
+  content: "“";
+  font-size: 100px;
+  color: #ccc;
+  position: absolute;
+  top: -26px;
+  left: 0px;
+  transform: rotate(-180deg);
+  z-index: -2;
+}
+
+.comments__text br {
+  display: block;
+  border-bottom: 1px solid #ccc;
+  margin: 10px 0;
+  content: "";
+}
+
+/* Чтобы последняя линия не рисовалась */
+.comments__text br:last-of-type {
+  border-bottom: none;
+}
