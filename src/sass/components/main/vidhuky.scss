@@ -60,3 +60,18 @@
 .comments__text br:last-of-type {
   border-bottom: none;
 }
+.comments__author {
+  text-align: center;
+  margin-top: 30px;
+}
+.comments__name {
+  color: rgba(0, 0, 0, 1);
+
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+  margin-top: 18px;
+  margin-bottom: 30px;
+}
