@@ -28,11 +28,11 @@
 
 .comments__text {
   color: rgb(0, 0, 0);
-  font-family: DM Sans;
-  font-size: 16px;
+  font-family: "DM Sans";
+  font-size: 12px;
   width: 157px;
   height: 239px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 30px;
   position: relative;
   z-index: 2;
@@ -41,13 +41,17 @@
 }
 
 .comments__text::before {
-  content: "“";
-  font-size: 100px;
+  font-family: "DM Sans";
+  content: "";
+  background-image: url("../images/doublequotes.webp");
+  background-repeat: no-repeat;
+  display: block;
+  width: 100px;
+  height: 100px;
   color: #ccc;
   position: absolute;
-  top: -26px;
+  top: 0px;
   left: 0px;
-  transform: rotate(-180deg);
   z-index: -2;
 }
 
