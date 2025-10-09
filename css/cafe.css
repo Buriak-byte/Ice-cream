@@ -128,14 +128,6 @@
 .locations__btn {
   width: 161.45px;
   height: 44px;
-  color: rgb(255, 255, 255);
-  font-family: DM Sans;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  align-items: center;
   border: none;
   outline: none;
   border-radius: 24px;
@@ -144,16 +136,30 @@
   margin-bottom: 10px;
 }
 
-.locations__btn--alt {
-  width: 161px;
-  height: 44px;
-  color: rgb(212, 20, 67);
-  background: rgb(255, 255, 255);
+.a-loc {
+  color: rgb(255, 255, 255);
   font-family: DM Sans;
   font-size: 16px;
   font-weight: 700;
   line-height: 100%;
   letter-spacing: 0%;
+  text-align: center;
+  align-items: center;
+}
+
+.a-fran {
+  color: rgb(212, 20, 67);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.locations__btn--alt {
+  width: 161px;
+  height: 44px;
+  background: rgb(255, 255, 255);
   text-align: center;
   align-items: center;
   border: none;
