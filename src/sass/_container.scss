@@ -2,4 +2,8 @@
   width: 320px;
   margin: 0 auto;
   padding: 0 20px;
+  @media (min-width: 768px) {
+    width: 768px;
+    padding: 0 36px;
+  }
 }
