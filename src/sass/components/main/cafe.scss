@@ -10,11 +10,25 @@
     rgba(255, 255, 255, 1) 5%,
     rgba(255, 245, 246, 1) 5%
   );
+
+  @media (min-width: 768px) {
+    padding-top: 119px;
+    padding-bottom: 158px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 20%,
+      rgba(255, 245, 246, 1) 20%
+    );
+  }
 }
 .locations__list {
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 .locations__item {
   width: 220px;
@@ -24,9 +38,17 @@
   background: rgba(255, 255, 255, 1);
   padding: 43px 20px;
   text-align: left;
+  @media (min-width: 768px) {
+    height: 544px;
+    padding: 50px 32px 50px 31px;
+  }
 }
 .locations__item:not(:last-child) {
   margin-bottom: 20px;
+  @media (min-width: 768px) {
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
 }
 .locations__type {
   color: rgba(255, 255, 255, 1);
@@ -43,6 +65,17 @@
   border-radius: 4px;
   background: rgba(240, 209, 165, 1);
   margin-bottom: 25px;
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 73px;
+    height: 28px;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 21px;
+  }
 }
 .locations__type2 {
   color: rgba(255, 255, 255, 1);
@@ -58,6 +91,18 @@
   border-radius: 4px;
   background: rgba(194, 226, 151, 1);
   margin-bottom: 25px;
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 138px;
+    height: 28px;
+
+    border-radius: 6px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 21px;
+  }
 }
 
 .locations__city {
@@ -69,11 +114,16 @@
   line-height: 16px;
   letter-spacing: 4%;
   text-align: left;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
+  @media (min-width: 768px) {
+    font-size: 14px;
+    margin-bottom: 14px;
+    line-height: 18px;
+  }
 }
 .locations__desc {
   width: 179px;
-  height: 36px;
+
   color: rgba(144, 126, 130, 1);
 
   font-family: DM Sans;
@@ -84,7 +134,14 @@
   text-align: left;
   border-bottom: 1px solid rgba(225, 225, 225, 1);
   margin-bottom: 25px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
+  @media (min-width: 768px) {
+    width: 157px;
+
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    font-size: 14px;
+  }
 }
 .locations__days {
   color: rgba(0, 0, 0, 1);
@@ -96,10 +153,16 @@
   line-height: 16px;
   letter-spacing: 0%;
   text-align: left;
+  @media (min-width: 768px) {
+    font-size: 14px;
+    width: 130px;
+    height: 26px;
+    line-height: 18px;
+  }
 }
 .locations__time {
   width: 137.96px;
-  height: 22px;
+
   color: rgba(255, 165, 186, 1);
 
   font-family: DM Sans;
@@ -108,25 +171,60 @@
   line-height: 16px;
   letter-spacing: 0%;
   text-align: left;
+
+  @media (min-width: 768px) {
+    font-size: 14px;
+
+    line-height: 18px;
+
+    width: 142px;
+  }
 }
 .locations__time:not(:last-child) {
   margin-bottom: 10px;
+  @media (min-width: 768px) {
+    margin-bottom: 15px;
+  }
+}
+.locations__time:last-child {
+  padding-bottom: 25px;
+  @media (min-width: 768px) {
+    padding-bottom: 30px;
+  }
+}
+.locations__phone {
+  margin-top: 25px;
+  border-top: 1px solid rgba(225, 225, 225, 1);
+
+  @media (min-width: 768px) {
+    display: block;
+    padding-top: 30px;
+  }
 }
 .locations__phone,
 .locations__email {
   color: rgba(144, 126, 130, 1);
-
+  margin-top: 25px;
   font-family: DM Sans;
   font-size: 12px;
   font-weight: 500;
   line-height: 18px;
   letter-spacing: 0%;
   text-align: left;
+
+  @media (min-width: 768px) {
+    font-size: 14px;
+    width: 157px;
+  }
 }
 .btn-div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 .locations__btn {
   width: 161.45px;
@@ -138,6 +236,12 @@
   background: rgba(212, 19, 66, 1);
   margin-top: 54px;
   margin-bottom: 10px;
+  @media (min-width: 768px) {
+    margin-top: 85px;
+    margin-bottom: 0px;
+    width: 191.45px;
+    height: 44px;
+  }
 }
 
 .a-loc {
@@ -150,6 +254,8 @@
   letter-spacing: 0%;
   text-align: center;
   align-items: center;
+  @media (min-width: 768px) {
+  }
 }
 .a-fran {
   color: rgba(212, 20, 67, 1);
@@ -165,9 +271,14 @@
 
   background: rgba(255, 255, 255, 1);
 
-  text-align: center;
-  align-items: center;
   border: none;
   outline: none;
   border-radius: 24px;
+  @media (min-width: 768px) {
+    width: 174.05px;
+    height: 44px;
+    margin-left: 14px;
+    margin-top: 85px;
+    margin-bottom: 0px;
+  }
 }

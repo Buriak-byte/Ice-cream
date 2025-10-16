@@ -1,6 +1,11 @@
 .footer {
   padding-top: 113px;
   padding-bottom: 25px;
+  background: rgba(255, 245, 246, 1);
+  @media (min-width: 768px) {
+    padding-top: 165px;
+    padding-bottom: 18px;
+  }
 }
 .footer__subtitle {
   color: rgba(255, 165, 186, 1);
@@ -14,6 +19,13 @@
   text-align: left;
   text-transform: uppercase;
   margin-bottom: 17px;
+  @media (min-width: 768px) {
+    font-size: 26px;
+    width: 340px;
+    height: 57px;
+    letter-spacing: 4%;
+    margin-bottom: 16px;
+  }
 }
 .footer__title {
   color: rgba(212, 20, 67, 1);
@@ -26,6 +38,7 @@
   letter-spacing: 4%;
   text-align: left;
   text-transform: uppercase;
+  @
 }
 .footer__socials {
   display: flex;

@@ -1,6 +1,13 @@
 .footer {
   padding-top: 113px;
   padding-bottom: 25px;
+  background: rgb(255, 245, 246);
+}
+@media (min-width: 768px) {
+  .footer {
+    padding-top: 165px;
+    padding-bottom: 18px;
+  }
 }
 
 .footer__subtitle {
@@ -15,6 +22,15 @@
   text-align: left;
   text-transform: uppercase;
   margin-bottom: 17px;
+}
+@media (min-width: 768px) {
+  .footer__subtitle {
+    font-size: 26px;
+    width: 340px;
+    height: 57px;
+    letter-spacing: 4%;
+    margin-bottom: 16px;
+  }
 }
 
 .footer__title {
