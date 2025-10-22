@@ -337,7 +337,6 @@
     padding-bottom: 119px;
   }
 }
-
 .comments__image {
   width: 85px;
   height: 85px;
@@ -636,6 +635,12 @@
   .container {
     width: 768px;
     padding: 0 36px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding: 0 115px;
   }
 }
 
