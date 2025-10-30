@@ -143,21 +143,8 @@
   color: rgba(212, 20, 67, 1);
 }
 .div-copyright {
-  position: relative;
-  width: 100%;
-
   display: flex;
   justify-content: center;
-  width: calc(100% + 90px);
-  margin-left: -45px;
-  @media (min-width: 768px) {
-    width: calc(100% + 72px);
-    margin-left: -36px;
-  }
-  @media (min-width: 1280px) {
-    width: calc(100% + 230px);
-    margin-left: -115px;
-  }
 }
 .div-copyright::before {
   content: '';
