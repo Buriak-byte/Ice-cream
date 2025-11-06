@@ -6,8 +6,13 @@
   @media (min-width: 768px) {
     padding-top: 130px;
     padding-bottom: 140px;
-    background: #fff5f6;
-    height: 1264px;
+
+    height: 1254px;
+  }
+  @media (min-width: 1200px) {
+    padding-top: 125px;
+    padding-bottom: 139px;
+    height: 1382px;
   }
 }
 .how-its-made__subtitle {
@@ -29,6 +34,13 @@
     font-size: 26px;
     margin-bottom: 16px;
   }
+  @media (min-width: 1200px) {
+    font-size: 30px;
+    width: 351px;
+    height: 34px;
+    letter-spacing: 4%;
+    margin-bottom: 15px;
+  }
 }
 .how-its-made__title {
   width: 200px;
@@ -49,6 +61,12 @@
     height: 55px;
     text-transform: uppercase;
   }
+  @media (min-width: 1200px) {
+    font-size: 58px;
+    width: 534px;
+    height: 66px;
+    letter-spacing: 6%;
+  }
 }
 .him-div {
   @media (min-width: 768px) {
@@ -68,18 +86,27 @@
     margin-bottom: 56px;
     margin-right: 17px;
   }
+  @media (min-width: 1200px) {
+    width: 516px;
+    height: 516px;
+    margin-right: 74px;
+  }
 }
 .how-its-made__description {
-  width: 220px;
-  height: 94px;
-  color: rgba(0, 0, 0, 1);
-  font-family: DM Sans;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 16px;
-  letter-spacing: 0%;
-  margin: 0 auto;
-  margin-bottom: 32px;
+  @media (min-width: 368px) {
+    width: 220px;
+    height: 94px;
+    color: rgba(0, 0, 0, 1);
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
   @media (min-width: 768px) {
     font-size: 14px;
     width: 340px;
@@ -87,6 +114,17 @@
     line-height: 18px;
     margin-top: 100px;
     margin-bottom: 50px;
+  }
+  @media (min-width: 1200px) {
+    width: 440px;
+    height: 79px;
+
+    font-size: 16px;
+
+    line-height: 21px;
+    letter-spacing: 4%;
+    margin-top: 106px;
+    margin-bottom: 35px;
   }
 }
 .how-its-made__text {
@@ -104,6 +142,15 @@
     width: 340px;
     height: 155px;
     line-height: 18px;
+  }
+  @media (min-width: 1200px) {
+    width: 434px;
+    height: 155px;
+
+    font-size: 14px;
+
+    line-height: 18px;
+    letter-spacing: 4%;
   }
 }
 
@@ -123,6 +170,15 @@
     margin-right: 0px;
     margin-left: 0px;
     margin-bottom: 66px;
+    margin-top: 62px;
+  }
+  @media (min-width: 1200px) {
+    width: 176px;
+    height: 44px;
+    margin-bottom: 146px;
+    margin-top: 45px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 }
 .how-its-made__button-link {
@@ -137,11 +193,17 @@
   @media (min-width: 768px) {
     font-size: 16px;
   }
+  @media (min-width: 1200px) {
+    font-size: 16px;
+  }
 }
 .how-its-made-ul {
   @media (min-width: 768px) {
     display: flex;
     justify-content: center;
+  }
+  @media (min-width: 1200px) {
+    justify-content: normal;
   }
 }
 .how-its-made-li:not(:last-child) {
@@ -150,6 +212,9 @@
     margin-right: 60px;
     margin-bottom: 0;
   }
+  @media (min-width: 1200px) {
+    margin-right: 30px;
+  }
 }
 .how-its-made__stat-icon1,
 .how-its-made__stat-icon2,
@@ -157,6 +222,9 @@
   margin-bottom: 16px;
   @media (min-width: 768px) {
     margin-bottom: 36px;
+  }
+  @media (min-width: 1200px) {
+    margin-bottom: 40px;
   }
 }
 .how-its-made-h3-1 {
@@ -174,6 +242,11 @@
   @media (min-width: 768px) {
     font-size: 48px;
     margin-bottom: 13px;
+  }
+  @media (min-width: 1200px) {
+    height: 65px;
+    margin-bottom: 15px;
+    font-size: 58px;
   }
 }
 .how-its-made-h3-2 {
@@ -194,6 +267,11 @@
     height: 56px;
     margin-bottom: 13px;
   }
+  @media (min-width: 1200px) {
+    height: 65px;
+    margin-bottom: 15px;
+    font-size: 58px;
+  }
 }
 .how-its-made-h3-3 {
   width: 98px;
@@ -213,9 +291,14 @@
     height: 56px;
     margin-bottom: 13px;
   }
+  @media (min-width: 1200px) {
+    height: 65px;
+    margin-bottom: 15px;
+    font-size: 58px;
+  }
 }
 
-.how-its-made__stat-text1 {
+.how-its-made__stat-text {
   width: 230px;
   height: 36px;
   color: rgba(0, 0, 0, 1);
@@ -231,24 +314,23 @@
     height: 71px;
     line-height: 18px;
   }
-}
-.how-its-made__stat-text {
-  width: 230px;
-  height: 36px;
-  color: rgba(0, 0, 0, 1);
-  font-family: DM Sans;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 16px;
-  letter-spacing: 0%;
-  text-align: left;
-  @media (min-width: 768px) {
-    font-size: 14px;
-    width: 180px;
-    height: 67px;
-    line-height: 18px;
+  @media (min-width: 1200px) {
+    font-size: 16px;
+    width: 230px;
+    height: 71px;
+    line-height: 21px;
+  }
+  @media (min-width: 1200px) {
+    letter-spacing: 4%;
+    width: 330px;
+    height: 52px;
+    font-size: 16px;
+
+    line-height: 21px;
+    letter-spacing: 2%;
   }
 }
+
 .how-its-made__stat-bottom {
   position: absolute;
   bottom: -70px;
@@ -256,10 +338,16 @@
   width: 300px;
   height: 122px;
   @media (min-width: 768px) {
-    width: 786px;
+    width: 740px;
     height: 264px;
 
     text-align: center;
-    bottom: -125px;
+    bottom: -160px;
+  }
+  @media (min-width: 1200px) {
+    width: 1000px;
+    height: 430px;
+
+    bottom: -260px;
   }
 }

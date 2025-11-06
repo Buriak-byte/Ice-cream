@@ -1,12 +1,12 @@
 .comments {
-  padding-top: 80px;
+  padding-top: 160px;
   padding-bottom: 86px;
-  @media (max-width: 768px) {
-    padding-top: 121px;
+  @media (min-width: 768px) {
+    padding-top: 242px;
     padding-bottom: 119px;
   }
-  @media (min-width: 1280px) {
-    padding-top: 123px;
+  @media (min-width: 1200px) {
+    padding-top: 378px;
     padding-bottom: 132px;
   }
 }

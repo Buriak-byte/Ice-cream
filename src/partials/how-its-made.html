@@ -4,11 +4,39 @@
     <h1 class="how-its-made__title">how it’s made?</h1>
     <div class="him-div">
       <div class="sidebar-img">
-        <img
-          src="./images/corivka.webp"
-          alt="cow"
-          class="how-its-made__image-main"
-        />
+        <picture>
+          <source
+            srcset="
+              ./images/corivka.webp   1x,
+              ./images/corivka2x.webp 2x,
+              ./images/corivka3x.webp 3x
+            "
+            media="(max-width: 767px)"
+          />
+
+          <source
+            srcset="
+              ./images/corivka-tablet1x.webp 1x,
+              ./images/corivka-tablet2x.webp 2x,
+              ./images/corivka-tablet3x.webp 3x
+            "
+            media="(max-width: 1199px)"
+          />
+
+          <source
+            srcset="
+              ./images/corivka-pc1x.webp 1x,
+              ./images/corivka-pc2x.webp 2x,
+              ./images/corivka-pc3x.webp 3x
+            "
+            media="(min-width: 1200px)"
+          />
+          <img
+            src="./images/corivka.webp"
+            alt="cow"
+            class="how-its-made__image-main"
+          />
+        </picture>
       </div>
       <div class="sidebar-p">
         <p class="how-its-made__description">
@@ -39,7 +67,7 @@
           class="how-its-made__stat-icon1"
         />
         <h3 class="how-its-made-h3-1">721</h3>
-        <p class="how-its-made__stat-text1">
+        <p class="how-its-made__stat-text">
           Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
         </p>
       </li>
@@ -66,11 +94,38 @@
         </p>
       </li>
     </ul>
+    <picture>
+      <source
+        srcset="
+          ./images/home-pic1x.webp 1x,
+          ./images/home-pic2x.webp 2x,
+          ./images/home-pic3x.webp 3x
+        "
+        media="(max-width: 767px)"
+      />
 
-    <img
-      src="./images/home-pic5-removebg-preview.webp"
-      alt=""
-      class="how-its-made__stat-bottom"
-    />
+      <source
+        srcset="
+          ./images/home-pic-tablet1x.webp 1x,
+          ./images/home-pic-tablet2x.webp 2x,
+          ./images/home-pic-tablet3x.webp 3x
+        "
+        media="(max-width: 1119px)"
+      />
+
+      <source
+        srcset="
+          ./images/home-pic-pc1x.webp 1x,
+          ./images/home-pic-pc2x.webp 2x,
+          ./images/home-pic-pc3x.webp 3x
+        "
+        media="(min-width: 1200px)"
+      />
+      <img
+        src="./images/home-pic1x.webp"
+        alt=""
+        class="how-its-made__stat-bottom"
+      />
+    </picture>
   </div>
 </section>
