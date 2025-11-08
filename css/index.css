@@ -442,7 +442,7 @@
   .how-its-made {
     padding-top: 130px;
     padding-bottom: 140px;
-    height: 1264px;
+    height: 1254px;
   }
 }
 @media (min-width: 1200px) {
@@ -545,17 +545,20 @@
   }
 }
 
-.how-its-made__description {
-  width: 220px;
-  height: 94px;
-  color: rgb(0, 0, 0);
-  font-family: DM Sans;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 16px;
-  letter-spacing: 0%;
-  text-align: left;
-  margin-bottom: 32px;
+@media (min-width: 368px) {
+  .how-its-made__description {
+    width: 220px;
+    height: 94px;
+    color: rgb(0, 0, 0);
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
 }
 @media (min-width: 768px) {
   .how-its-made__description {
@@ -600,7 +603,7 @@
 }
 @media (min-width: 1200px) {
   .how-its-made__text {
-    width: 463px;
+    width: 434px;
     height: 155px;
     font-size: 14px;
     line-height: 18px;
@@ -667,6 +670,11 @@
     justify-content: center;
   }
 }
+@media (min-width: 1200px) {
+  .how-its-made-ul {
+    justify-content: normal;
+  }
+}
 
 .how-its-made-li:not(:last-child) {
   margin-bottom: 38px;
@@ -725,6 +733,7 @@
 @media (min-width: 1200px) {
   .how-its-made-h3-1 {
     height: 65px;
+    margin-bottom: 15px;
     font-size: 58px;
   }
 }
@@ -750,6 +759,13 @@
     margin-bottom: 13px;
   }
 }
+@media (min-width: 1200px) {
+  .how-its-made-h3-2 {
+    height: 65px;
+    margin-bottom: 15px;
+    font-size: 58px;
+  }
+}
 
 .how-its-made-h3-3 {
   width: 98px;
@@ -772,24 +788,11 @@
     margin-bottom: 13px;
   }
 }
-
-.how-its-made__stat-text1 {
-  width: 230px;
-  height: 36px;
-  color: rgb(0, 0, 0);
-  font-family: DM Sans;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 16px;
-  letter-spacing: 0%;
-  text-align: left;
-}
-@media (min-width: 768px) {
-  .how-its-made__stat-text1 {
-    font-size: 14px;
-    width: 180px;
-    height: 71px;
-    line-height: 18px;
+@media (min-width: 1200px) {
+  .how-its-made-h3-3 {
+    height: 65px;
+    margin-bottom: 15px;
+    font-size: 58px;
   }
 }
 
@@ -808,8 +811,26 @@
   .how-its-made__stat-text {
     font-size: 14px;
     width: 180px;
-    height: 67px;
+    height: 71px;
     line-height: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  .how-its-made__stat-text {
+    font-size: 16px;
+    width: 230px;
+    height: 71px;
+    line-height: 21px;
+  }
+}
+@media (min-width: 1200px) {
+  .how-its-made__stat-text {
+    letter-spacing: 4%;
+    width: 330px;
+    height: 52px;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 2%;
   }
 }
 
@@ -822,26 +843,33 @@
 }
 @media (min-width: 768px) {
   .how-its-made__stat-bottom {
-    width: 786px;
+    width: 740px;
     height: 264px;
     text-align: center;
-    bottom: -125px;
+    bottom: -160px;
+  }
+}
+@media (min-width: 1200px) {
+  .how-its-made__stat-bottom {
+    width: 1000px;
+    height: 430px;
+    bottom: -260px;
   }
 }
 
 .comments {
-  padding-top: 80px;
+  padding-top: 160px;
   padding-bottom: 86px;
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .comments {
-    padding-top: 121px;
+    padding-top: 242px;
     padding-bottom: 119px;
   }
 }
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
   .comments {
-    padding-top: 123px;
+    padding-top: 378px;
     padding-bottom: 132px;
   }
 }
